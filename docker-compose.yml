@@ -5,7 +5,7 @@ services:
     image: registry.cn-hangzhou.aliyuncs.com/jinyongyang/aliyuncode:latest
     container_name: aliyuncode
     ports:
-      - 8286:8286
+      - 8086:8086
     environment:
       RUNCOMMAND: "/usr/java/jdk1.8.0_45/bin/java -jar /srv/simulator/SpringBootRest.jar"
 
