@@ -2,7 +2,7 @@ version: '2'
 services:
   simulator:
     # build: ./docker
-    image: registry.cn-hangzhou.aliyuncs.com/jinyongyang/aliyuncode:latest
+    image: registry.cn-hangzhou.aliyuncs.com/jinyongyang/aliyuncode:a8717ade10e9
     container_name: simulator
     ports:
       - 8286:8286
