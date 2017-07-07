@@ -7,6 +7,6 @@ services:
     ports:
       - 8086:8086
     environment:
-      RUNCOMMAND: "/usr/java/jdk1.8.0_45/bin/java -jar /srv/simulator/SpringBootRest.jar"
+      RUNCOMMAND: "/usr/java/jdk1.8.0_45/bin/java -jar /srv/aliyuncode/SpringBootRest.jar"
 
   
