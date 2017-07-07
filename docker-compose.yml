@@ -1,0 +1,12 @@
+version: '2'
+services:
+  simulator:
+    # build: ./docker
+    image: registry.cn-hangzhou.aliyuncs.com/jinyongyang/aliyuncode:latest
+    container_name: simulator
+    ports:
+      - 8286:8286
+    environment:
+      RUNCOMMAND: "/usr/java/jdk1.8.0_45/bin/java -jar /srv/simulator/SpringBootRest.jar"
+
+  
