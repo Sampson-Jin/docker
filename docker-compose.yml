@@ -1,6 +1,6 @@
 version: '2'
 services:
-  simulator:
+  aliyuncode:
     # build: ./docker
     image: registry.cn-hangzhou.aliyuncs.com/jinyongyang/aliyuncode:latest
     container_name: aliyuncode
